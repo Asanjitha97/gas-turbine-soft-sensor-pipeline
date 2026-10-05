@@ -9,3 +9,4 @@ Algorithm Robustness & Anomaly Detection: Physical sensors operating in extreme 
 Data Reduction: Gas turbines utilize hundreds of sensors, causing massive multicollinearity. I applied Principal Component Analysis (PCA) to compress highly correlated physical phenomena (like overlapping exhaust pressures and turbine temperatures) down to 7 principal components, retaining 95% of the variance.  
 
 Virtual Estimation: Trained a Random Forest Regressor on the reduced dataset to accurately predict CO emissions, circumventing the need for expensive, direct physical emission sensors.
+<img width="696" height="554" alt="Screenshot 2026-10-05 143620" src="https://github.com/user-attachments/assets/0047fd85-1ec6-442a-ab67-d8afac381628" />
